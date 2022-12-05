@@ -19,4 +19,7 @@ check:
 build: 
 	check poetry build
 
+say-hello:
+	printf "Hello, World!\n"
+
 .PHONY: install test lint selfcheck check build
