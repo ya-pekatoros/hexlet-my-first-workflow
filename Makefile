@@ -8,14 +8,15 @@ test-coverage:
 	poetry run pytest --cov=hexlet_pytest --cov-report xml
 
 lint:
-	poetry run flake8 hexlet_pytest
+	poetry run flake8 hexlet_my_first_workflow
 
 selfcheck:
 	poetry check
 
-check: selfcheck test lint
+check:
+	selfcheck test lint
 
-build: check
-	poetry build
+build: 
+	check poetry build
 
 .PHONY: install test lint selfcheck check build

@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-my-first-workflow"
 version = "0.1.0"
-description = ""
+description = "First repo ti try github actions"
 authors = ["Yaroslav Pekatoros <y.pekatoros@gmail.com>"]
 readme = "README.md"
 packages = [{include = "hexlet_my_first_workflow"}]
